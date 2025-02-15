@@ -93,3 +93,5 @@ app.post("/api/calculate-metpet", (req, res) => {
 app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`);
 });
+const cors = require("cors");
+app.use(cors({ origin: "https://your-frontend-url.vercel.app", credentials: true }));
