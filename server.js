@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 app.use(cors({
   origin: "*", // Allow all origins (Change this to your frontend URL if needed)
@@ -94,5 +94,6 @@ app.post("/api/calculate-metpet", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server running on http://localhost:${port}`);
+  console.log(`Server running on port ${port}`);
 });
+
