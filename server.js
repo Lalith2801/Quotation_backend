@@ -94,4 +94,4 @@ app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`);
 });
 const cors = require("cors");
-app.use(cors({ origin: "https://your-frontend-url.vercel.app", credentials: true }));
+app.use(cors({ origin: "https://quotation-mocha.vercel.app/", credentials: true }));
