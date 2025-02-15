@@ -4,10 +4,13 @@ import cors from "cors";
 const app = express();
 const port = 5000;
 
-app.use(cors());
+app.use(cors({
+  origin: "*", // Allow all origins (Change this to your frontend URL if needed)
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  allowedHeaders: ["Content-Type"],
+}));
+
 app.use(express.json());
-
-
 
 // ✅ API to get board price
 app.get("/api/get-board-price", (req, res) => {
