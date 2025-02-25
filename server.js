@@ -30,7 +30,7 @@ const pricingData = {
     "4_color": { basePrice: 7000, extraPricePerThousand: 700 },
     "4_color_varnish": { basePrice: 7000, extraPricePerThousand: 800 },
     "4_color_texture_UV": { basePrice: 12750, extraPricePerThousand: 1250 },
-    "Metpet_4_color_texture_UV": { basePrice: 13300, extraPricePerThousand: 1250 },
+    "Metpet_4_color_texture_UV": { basePrice: 11300, extraPricePerThousand: 1000 },
   },
   M2: {
     "4_color": { basePrice: 2400, extraPricePerThousand: 350 },
@@ -45,7 +45,7 @@ const pricingData = {
     "4_color": { basePrice: 3200, extraPricePerThousand: 450 },
     "4_color_varnish": { basePrice: 3200, extraPricePerThousand: 700 },
     "4_color_texture_UV": { basePrice: 6750, extraPricePerThousand: 1000 },
-    "Metpet_4_color_texture_UV": { basePrice: 7100, extraPricePerThousand: 1000 },
+    "Metpet_4_color_texture_UV": { basePrice: 7100, extraPricePerThousand: 750 },
   },
 };
 
